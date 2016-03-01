@@ -34,3 +34,9 @@ each symbol represents 1 bit. Which means baud rate (symbol rate) is the same as
 what it means now.
 
 ciao.
+
+
+shoulders:
+1. https://www.maximintegrated.com/en/app-notes/index.mvp/id/2141
+2. http://forum.allaboutcircuits.com/threads/what-clock-frequency-for-a-certain-baud-rate.61514/
+3. http://www.microchip.com/forums/m105451.aspx

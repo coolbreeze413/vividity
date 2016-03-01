@@ -1,0 +1,36 @@
+Baud Rate, in the sense used today (circa 2016) in data communication, especially serial communication (think UART),
+refers to the bit rate of transmission or reception. The unit is bits per second(BPS) or quantity changing X times per 
+second("bit" is understood to be the quantity varying here), i.e. Hz.
+
+Baud Rate is more accurately described by "Symbol Rate". Communication over any medium is achieved by changing certain
+characteristics of the medium in a meaningful way. For example, in modern serial communication, change of "voltage" of the 
+connecting medium (wires) conveys information. Digital Communication is when we want to transfer information in terms of bits,
+or binary digits. So, if a HIGH voltage(say 3.3V) is 1 and a LOW votage(say 0V) is 0, then a change in voltage will signify
+data of '1' or '0'. In this case, we have 2 states of the medium (voltage) representing the 2 binary digits. So, the rate at which
+the medium's characteristics (voltage) change is essentially the same as the rate of change of bits in the information. This is 
+essentially how UART communication today takes place - 1 bit change is represented by 1 state. The state is formally called
+a Symbol.
+
+Now, if HIGH1 = 3.3V, HIGH2 = 5V, LOW1 = 1.8V and LOW2 = 0V, then depending on the change, it can represent 4 distinct symbols.
+If we map each of these "Symbols" to a binary value (Digital Communication) say, like below:
+HIGH2 = 0b'00 (5V represents 0b'00)
+HIGH1 = 0b'01 (3.3V represent 0b'01)
+LOW1 =  0b'10 (1.8V represents 0b'10)
+LOW2 =  0b'11 (0V represents 0b'11)
+
+then, we are essentially sending 2 bits with each state. The "Baud" is still the rate of the change of Symbols. But the bitrate,
+is now essentially 2xSymbol rate, so, if the baud is, say, 9600 Hz then, the bitrate is actually 19200 bits per second.
+This is true for "wire" based media. With wireless media, the characteristics of an electromagetic wave can be modified 
+(phase/amplitude/frequency) so that each state (i.e. a combination of different characteristic values is a state) represents
+multiple bits.
+
+In general, if, using characteristics and combinations, we produce N unique combinations, that is to say N unique symbols,
+then, "log(N) to base 2" bits can be represented by each symbol. 
+For example, with 16 unique symbols in a communication scheme, each symbol represents 4 bits (2^4 == 16), so bitrate = 4xSymbolRate
+or in other words, 4xBaud Rate.
+
+Coming back to where we see this commonly, in UARTs, the "Symbols" are 2 voltage levels that represent 0 and 1. Which means 
+each symbol represents 1 bit. Which means baud rate (symbol rate) is the same as bit rate. Which means, you should have understood
+what it means now.
+
+ciao.

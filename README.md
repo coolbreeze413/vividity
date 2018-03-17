@@ -1,2 +1,5 @@
 # vividity
-a collection of notes and writings for technical jargon, riding on the shoulders of others with greater perception!
+a collection of notes.
+
+here is also a list of links compiled over time.
+https://github.com/4-20ma/ModbusMaster

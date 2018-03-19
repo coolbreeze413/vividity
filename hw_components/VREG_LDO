@@ -1,0 +1,9 @@
+Most voltage regulation needs can be met with simple LDOs.
+Issues only arise when the input voltage and output voltage differential is too high, or too low.
+Most low cost LDOs have a minimum differential between input and output voltages around 1V.
+the minimum differential voltage is usually called Vdropout, and restricts choices in certain cases.
+
+AMS1117
+TI LM1117
+National Semi LM1117
+Exar SPX3819

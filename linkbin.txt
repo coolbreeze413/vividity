@@ -1,0 +1,6 @@
+[C][printf][binary format]
+https://stackoverflow.com/questions/111928/is-there-a-printf-converter-to-print-in-binary-format
+
+[C][file][r+][update mode][read after write or write after read]
+https://stackoverflow.com/questions/17762982/read-and-write-in-place-not-writing
+https://stackoverflow.com/questions/1713819/why-is-fseek-or-fflush-always-required-between-reading-and-writing-in-the-update/1713868

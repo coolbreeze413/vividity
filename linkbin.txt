@@ -6,7 +6,8 @@ https://stackoverflow.com/questions/17762982/read-and-write-in-place-not-writing
 https://stackoverflow.com/questions/1713819/why-is-fseek-or-fflush-always-required-between-reading-and-writing-in-the-update/1713868
 
 [zmodem]
-https://stackoverflow.com/questions/9611000/understanding-the-zmodem-protocolhttp://www.ifremer.fr/lpo/gliders/donnees_tt/tech/protocoles/serial_com.pdf
+https://stackoverflow.com/questions/9611000/understanding-the-zmodem-protocol
+http://www.ifremer.fr/lpo/gliders/donnees_tt/tech/protocoles/serial_com.pdf
 
 [dps][dps5005][bench power supply]
 http://lygte-info.dk/review/Power%20DPS5015%20UK.html

@@ -4,3 +4,13 @@ https://stackoverflow.com/questions/111928/is-there-a-printf-converter-to-print-
 [C][file][r+][update mode][read after write or write after read]
 https://stackoverflow.com/questions/17762982/read-and-write-in-place-not-writing
 https://stackoverflow.com/questions/1713819/why-is-fseek-or-fflush-always-required-between-reading-and-writing-in-the-update/1713868
+
+[zmodem]
+https://stackoverflow.com/questions/9611000/understanding-the-zmodem-protocolhttp://www.ifremer.fr/lpo/gliders/donnees_tt/tech/protocoles/serial_com.pdf
+
+[dps][dps5005][bench power supply]
+http://lygte-info.dk/review/Power%20DPS5015%20UK.html
+https://johan.kanflo.com/hacking-the-dps5005/
+https://johan.kanflo.com/dps5005-now-with-comms/
+https://johan.kanflo.com/opendps-design/
+https://github.com/kanflo/opendps

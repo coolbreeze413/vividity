@@ -11,6 +11,13 @@ National Semi LM1117
 340mV dropout at 500mA, 3.3V, 42/- (max = 500mV)
 Exar SPX3819
 
+250mV dropout at 600mA, 3.3V, 21/-
+AP2112K-33TRG1
+https://www.mouser.in/ProductDetail/Diodes-Incorporated/AP2112K-33TRG1?qs=sGAEpiMZZMsGz1a6aV8DcGbRBi2StxQPgk%252bn4WupHLk%3d
+Adafruit Huzzah ESP32 uses this.
+
+AP2112K and SPX3819 have identical pinouts in SOT-23-5, so drop in replacement.
+
 84mV dropout at 1A, 3.3V! expensive though, 171/- (max = 135mV)
 https://www.mouser.in/ProductDetail/Analog-Devices/ADM7171ACPZ-33-R7?qs=sGAEpiMZZMsGz1a6aV8DcHJFYYA8LGcj4M809sr09QY%3d
 

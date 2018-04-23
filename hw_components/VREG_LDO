@@ -3,7 +3,16 @@ Issues only arise when the input voltage and output voltage differential is too 
 Most low cost LDOs have a minimum differential between input and output voltages around 1V.
 the minimum differential voltage is usually called Vdropout, and restricts choices in certain cases.
 
+high dropout, expect 1V at 1A:
 AMS1117
 TI LM1117
 National Semi LM1117
+
+340mV dropout at 500mA, 3.3V, 42/- (max = 500mV)
 Exar SPX3819
+
+84mV dropout at 1A, 3.3V! expensive though, 171/- (max = 135mV)
+https://www.mouser.in/ProductDetail/Analog-Devices/ADM7171ACPZ-33-R7?qs=sGAEpiMZZMsGz1a6aV8DcHJFYYA8LGcj4M809sr09QY%3d
+
+130mV dropout at 1A, 3.3V, 102/-
+https://www.mouser.in/ProductDetail/Texas-Instruments/TPS73733QDRBRQ1?qs=sGAEpiMZZMsGz1a6aV8DcG6JDlbjdY3gh14Cd49o3Gs%3d

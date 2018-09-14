@@ -25,3 +25,5 @@ https://github.com/johnhuang-cn/jpserve
 [flash][spi flash]
 https://electronics.stackexchange.com/questions/122550/flash-memory-does-the-entire-page-need-to-be-erased-before-writing-just-a-few-b
 
+[FET][logic level]
+https://arduinodiy.wordpress.com/2012/05/02/using-mosfets-with-ttl-levels/
